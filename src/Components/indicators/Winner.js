@@ -1,7 +1,7 @@
 
 
 
-export default function WINNER({ gameWinner, playAgain }) {
+export default function Winner({ gameWinner, playAgain }) {
 
     return (
         <div div className="winner-container" >
@@ -11,5 +11,5 @@ export default function WINNER({ gameWinner, playAgain }) {
             
             <button className='btn-sm heading-xs' onClick={playAgain} >SPILL IGJEN</button>
         </div >
-    )
+    );
 }
